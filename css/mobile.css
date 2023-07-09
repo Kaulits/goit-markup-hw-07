@@ -939,6 +939,8 @@ body {
             pointer-events: none;
     
             transition: opacity 500ms linear, visibility 500ms linear;
+
+    
         }
     
         .mobile-menu-container {
@@ -947,6 +949,8 @@ body {
             padding-right: 35px;
             padding-top: 80px;
             padding-bottom: 40px;
+
+           
         }
     
     
@@ -1007,7 +1011,11 @@ gap: 40px;
     align-items: flex-start;
     gap: 40px;
     margin-bottom: 48px;
+
+    
 }
+
+
 
 .contact-container {
 margin-top: 284px;
@@ -1015,9 +1023,16 @@ margin-top: 284px;
 }
 
 .social-media-list {
-    display: inline-flex;
+    display: flex;
     align-items: flex-start;
     gap: 56px;
+}
+
+@media screen and (max-width: 428px)  {
+    .social-media-list {
+        gap: calc((100% - 168px) / 3);
+    }
+    
 }
 
 .mobile-contact-phone {
@@ -1027,6 +1042,13 @@ margin-top: 284px;
         line-height: 40px;
         letter-spacing: 0.72px;
         text-transform: capitalize;
+}
+
+@media screen and (max-width: 428px) {
+    .mobile-contact-phone {
+        font-size: 24px;
+    }
+
 }
 
 
