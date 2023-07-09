@@ -179,12 +179,17 @@
 
 .works-list {
     justify-content: flex-start;
-    column-gap: 18px;
+    column-gap: 24px;
     row-gap: 72px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
       
+}
+
+.works-item {
+    width: 356px;
+    height: 420px;
 }
 
 /* ====== /PORTFOLIO ===== */
