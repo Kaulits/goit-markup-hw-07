@@ -4,12 +4,34 @@
     .container {
         width: 1158px;
     }
+    .section {
+         padding-top: 120px;
+        padding-bottom: 120px;
+        }
 }
+
+
 
 .actual-page {
     color: #404bbf;
 }
 
+
+
+/* ===== SOCIAL ===== */
+
+.social-link-section:hover,
+.social-link-section:focus {
+    background-color: var(--focus-color-section);
+}
+
+
+.social-link-footer:hover,
+.social-link-footer:focus {
+    background-color: var(--focus-color-footer);
+}
+
+/* ===== /SOCIAL ===== */
 
 @media screen and (min-width: 1158px) {
     .contact-list {
@@ -152,7 +174,6 @@
 }
 
 
-
 .footer-subscribe {
     margin-left: 80px;
     display: flex;
@@ -161,11 +182,9 @@
 }
 
 
-
-
 .subscribe-form {
     display: flex;
-    gap: 24px;
+    
 }
 
 
