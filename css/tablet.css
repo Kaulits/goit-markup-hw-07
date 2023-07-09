@@ -177,6 +177,16 @@
     padding: 65px 0 96px 0;
 }
 
+.works-list {
+    justify-content: flex-start;
+    column-gap: 18px;
+    row-gap: 72px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+      
+}
+
 /* ====== /PORTFOLIO ===== */
 
 }
