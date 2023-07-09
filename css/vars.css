@@ -1,0 +1,24 @@
+:root {
+    --title-text-color: #2E2F42;
+    --usual-text-color: #434455;
+    --white-text-color: #F4F4FD;
+
+    --title-white-color: #FFFFFF;
+
+    --accent-color: #4D5AE5;
+
+    --primary-bcg-color: #FFFFFF;
+    --secondary-bcg-color: #E5E5E5;
+    --dark-bcg-color: #2E2F42;
+
+    --border-color: #E7E9FC;
+
+    --icons-bc-color: #4D5AE5;
+    --customers-icons: #8E8F99;
+
+    --focus-color-section: #404BBF;
+    --focus-color-footer: #31D0AA;
+    --focus-color-customers: #404BBF;
+}
+
+
