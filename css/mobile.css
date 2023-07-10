@@ -53,7 +53,7 @@ body {
 
 
 
-.img {
+img {
     display: block;
     max-width: 100%;
     height: auto;
@@ -1178,10 +1178,9 @@ flex-wrap: wrap;
 }
 
 
-.works-item {
+/* .works-item {
     width: 100%;
-    max-width: 360px;
-}
+} */
 
 /* ====== /PORTFOLIO ===== */
 
