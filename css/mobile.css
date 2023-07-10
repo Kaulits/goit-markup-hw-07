@@ -668,7 +668,7 @@ img {
 .customers-list {
     display: flex;
     justify-content: center;
-    gap: 24px;
+    
 }
 
 .customers-icons {
@@ -1130,7 +1130,9 @@ margin-top: auto;
 
 .customers-list {
 flex-wrap: wrap;
+gap: 72px 16px;
 }
+
 
 /* ======== /CUSTOMERS ========  */
 

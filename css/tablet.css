@@ -141,6 +141,7 @@
 
 .customers-list {
     flex-wrap: wrap;
+    gap: 72px 24px;
 }
 
 /* ======== /CUSTOMERS ======== */
